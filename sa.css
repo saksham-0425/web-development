@@ -1,0 +1,111 @@
+body{
+  background-image:url();
+  color:white;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background:linear-gradient(90deg, rgba(58,58,158,0.8),rgba(136,136,206,0.7)),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+background-position:center;
+background-attachment: fixed;
+
+}
+
+#survey-form{
+  background-color:rgba(27,27,50,0.8);
+  width:55%;
+  margin:auto;
+  font-size:25px;
+  border-radius:25px;
+}
+h1{
+  display:block;
+  margin:20px;
+  margin-bottom:10px;
+  text-align:center;
+  font-family: 'Tektur', cursive;
+
+}
+#description{
+  font-style:italic;
+  margin-bottom:40px ;
+  margin-top:0px;
+  text-align:center;
+}
+div section{
+  margin-left:50px;
+}
+section{
+  display:block;
+  margin-left:50px;
+}
+.new2{
+  margin-bottom:40px;
+}
+.ott{
+  margin-top:50px;
+}
+label{
+  display:block;
+  margin-left:50px;
+  margin-top:40px;  
+}
+#name{
+  margin:10px 50px;
+  width:50%;
+  height:30px;
+}
+#email{
+  margin:10px 50px;
+  width:50%;
+  height:30px;
+}
+
+#number{
+  margin:10px 50px;
+  width:50%;
+  height:30px;
+}
+
+#dropdown{
+  margin:10px 50px;
+  width:50%;
+  height:30px;
+}
+.nothing{
+  display:block;
+  margin:10 50px;
+}
+.nothing1 label{
+  display:block;
+}
+
+.void{
+  display:block;
+  margin:10px 50px;
+}
+
+#submit{
+  margin:50px;
+ 
+  width:80%;
+  height:30px;
+  display:block;
+  background-color:rgb(193, 241, 193);
+  border:none;
+}
+.textarea{
+  margin: 10px 50px;
+  margin-top:40px;
+}
+textarea{
+  display:block;
+  margin-left:50px;
+  width:50%;
+  height:30px;
+}
+ #new1{
+  display:block; 
+  margin-left:50px; 
+  width:50%;
+  height:30px;
+  margin-bottom:40px;
+} 

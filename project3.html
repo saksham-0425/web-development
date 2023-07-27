@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Survey Form
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Tektur&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="sa.css"> 
+</head>
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+
+        <div class="ott">
+        </div>
+        <label id="name-label">Name</label><input id="name" placeholder="Enter your name" type="text" required>
+
+        <label id="email-label">Email</label><input id="email" type="email" placeholder="Enter your email" required>
+
+        <label id="number-label">Age (optional)</label><input id="number" type="number" placeholder="Age" min="13"
+            max="120">
+
+        <label for="dropdown">Which option best describes your current role?</label>
+        <select id="dropdown">
+            <option>select current role</option>
+            <option>student</option>
+            <option>full time job</option>
+            <option>full time learner</option>
+            <option>prefer not to say</option>
+            <option>other</option>
+        </select>
+
+        <div class="new2">
+            <label>Would you recommend freeCodeCamp to a friend?</label>
+            <section><input type="radio" name="one" value="1" checked>Definitely</section>
+            <section><input name="two" type="radio" value="2">Maybe</label></section>
+            <section><input type="radio" name="three" value="3">not sure</section>
+        </div>
+
+        <div class="void">
+            What is your favorite feature of freeCodeCamp?
+        </div>
+        <select id="new1">
+            <option>select an option</option>
+            <option>challenges</option>
+            <option>projects</option>
+            <option>community</option>
+            <option>open source</option>
+        </select>
+
+        <div class="nothing" id="kiit">
+            What would you like to see improved? (Check all that apply)
+        </div>
+        <section class=""><input type="checkbox" value="Front-end Projects">Front-end Projects</section>
+        <section><input type="checkbox" value="Back-end Projects">Back-end Projects</section>
+        <section><input type="checkbox" value="Data Visualisation">Data Visualisation</section>
+        <section><input type="checkbox" value="Challenges">Challenges</section>
+        <section><input type="checkbox" value="Open source community">OpenSource Community</section>
+        <section><input type="checkbox" value="Glitter help rooms">Glitter help rooms</section>
+        <section><input type="checkbox" value="videos">Videos</section>
+        <section><input type="checkbox" value="city meet ups">city meet ups</section>
+        <section><input type="checkbox" value="Forums">Forums</section>
+        <section><input type="checkbox" value="wiki">Wiki</section>
+        <section><input type="checkbox" value="Additional coursses"> all Courses</section>
+        <div class="textarea">
+            any comments or suggestions?
+        </div>
+        <textarea placeholder="enter your comments here"></textarea>
+
+
+        <input type="submit" id="submit">
+    </form>
+</body>
+
+</html>
